@@ -410,7 +410,7 @@ void expedition_start(struct Game *g, const ExpeditionPlan *plan, uint8_t days_o
     g->away[i] = 1;
     g->away_days[i] = days_out;
 
-    ui_text_box("They head outside...\nBack in a few days.");
+    ui_text_box("Headed outside...\nBack in a few days.");
     ui_wait();
 }
 
